@@ -8,7 +8,8 @@ import plotly.express as px
 data = pd.read_excel('aduan_pelanggan_icon.xlsx')
 
 # Title and subheader
-st.title('Analisis 1 Data Aduan Pelanggan')
+st.title('Analisis 1')
+st.subheader('Layanan Aplikasi terhadap Kategori Aduan')
 st.subheader('Data Aduan Pelanggan')
 
 # Display the data
